@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@eirikb/normalize-html-table": "^1.1.4",
+    "cheerio": "^1.0.0-rc.12",
+    "cheerio-tableparser": "^1.0.1",
+    "puppeteer": "^21.6.0"
+  },
+  "name": "amd-scraper",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
