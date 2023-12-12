@@ -1,0 +1,25 @@
+SELECT
+    id,
+    architecture,
+    fabrication_nm,
+    family,
+    release_date,
+    codename,
+    model_group,
+    cores,
+    smt,
+    clock_rate_mhz,
+    bus_speed_type,
+    cache_l1,
+    cache_l2,
+    cache_l3,
+    socket,
+    memory_controller,
+    simd,
+    speed_power,
+    other,
+    changes
+from
+    AmdProcessorsTypes
+where
+    id = ?;
